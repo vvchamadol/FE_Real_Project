@@ -1,0 +1,45 @@
+.hide{
+    display: none;
+}
+
+.editView {
+    margin: 0px 0px 0px 210px;
+    position: fixed;
+    padding: 0;
+    height: 500px;
+    z-index: 100;
+    width: 400px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    border-radius: 27px;
+
+    .editZone {
+        padding: 20px;
+        
+    }
+}
+
+.addView {
+    margin: 0px 0px 0px 210px;
+    position: fixed;
+    padding: 0;
+    height: 500px;
+    z-index: 100;
+    width: 400px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(2px);
+    border-radius: 27px;
+
+    .addZone {
+        padding: 20px;
+        
+    }
+}
